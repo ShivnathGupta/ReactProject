@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Signin.css'
 import { Link } from 'react-router-dom';
-import { SigninAction } from './redux/SigninAction'
+import { SigninAction } from './redux/SigninAction';
 import { connect } from 'react-redux'
 
 class Login extends Component {
